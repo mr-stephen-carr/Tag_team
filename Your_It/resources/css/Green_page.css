@@ -1,39 +1,40 @@
 #background{
 	background-color: rgb(67, 163, 67);
 }
-/*.title{
-	font-size: 45pt;
-	margin-top: 45px;
+.title{
+	font-size: 35pt;
+	text-align: center;
 	color: white;
+	margin-right: auto;
+	margin-left: auto;
 	font-weight: bold;
-	text-decoration: underline white;
 }
 .subtitle{
-	font-size: 28pt;
+	font-size: 18pt;
 	font-family: sans-serif;
-	margin-top: 28px;
-	margin-left:20px;
-	color: rgb(240, 96, 39);
-	font-weight: bold;
-	text-decoration: underline rgba(233, 233, 97, 0.966);
+	text-align: center;
+	color: white;
 }
-.factbox{
-	width:1100px;
-   margin-left:10px;
-   font-size: 28pt;
-   color: white;
-   font-family: sans-serif;
-   height: 300px;
-   margin-top:15px;
-   margin-bottom:50px;
-   border: 2px solid rgb(216, 155, 41);
-   background-color: rgb(211, 183, 105);
+
+.safeBox{
+	background: url(../images/Thumbs_up.jpg);
+	width:350px;
+	height: 350px;
+	font-size: 28pt;
+	margin-top: 1%;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: sans-serif;
+	border: 2px solid  rgb(241, 241, 78);
+	background-color: white;
 	
 }
-.coolFacts{
+.distanceUpdate{
 	color: white;
-    width:1000px;
-    color: rgb(240, 237, 220);
-    margin-left:10px;
-    margin-top: 15px;
-} */
+	width:350px;
+	text-align: center;
+	color: rgb(240, 237, 220);
+	margin-right: auto;
+	margin-left: auto;
+    margin-top: 360px;
+}
