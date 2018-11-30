@@ -20,11 +20,11 @@
 	text-align: center;
 	color: white;
 }
-.ruleBox{
+#ruleBox{
    width:500px;
-   height: 500px;
+   height: 505px;
+   float: left;
    font-size: 28pt;
-   margin-top: 2%;
    margin-left: 3%;
    font-family: sans-serif;
    margin-top:75px;
@@ -32,10 +32,9 @@
    background-color: rgb(167, 141, 73);
 	
 }
-
 #introParagraphBox{
     width:94%;
-    height: 10%;
+    height: 15%;
     font-size: 16pt;
     margin-left: 3%;
     margin-top: 2%;
@@ -56,8 +55,19 @@
 }
 .introText{
 	color: white;
-    width:1020px;
+    width:1100px;
+    text-align: center;
     color: rgb(240, 237, 220);
     margin-left: auto;
     margin-right: auto;
+}
+.twitterFeed{
+    color: white;
+    float: right;
+    font-size: 14pt;
+    color: rgb(240, 237, 220);
+    margin-top:75px;
+    margin-right: 3%;
+
+
 }

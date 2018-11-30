@@ -11,17 +11,33 @@ html
 			.subtitle Use Your Phone to Play this Classic Game
 			#introParagraphBox
 				.introText 	
-					| This is the part of the webiste where we say something clever about playing tag with a celphone.
-					| But, we're not going to do that in this part of the website. Seems condescending to explain tag to you 
-					| if you found our website.
+					| This is the part of the webiste where we say something clever about playing tag with a cellphone.
+					| But, we're not going to do that in this part of the website. It would be condescending to explain tag to you, 
+					| considering your clever enough to find our website.
 					| All we've done is provide a brief set of rules to explain the unique parts of our version!
-			.ruleBox
+			#ruleBox
 				ol.theRules
 					.lable Rules
+					li No physical contact is needed to tag another player
+					| -
+					li Players cannot be restrained in any way when they are being tagged
+					| -
+					li Tagging can occur at any time, in any place
+					| -
 					li After the website displays green you are farther than 500 feet from the person who is IT
+					| -
 					li When the website displays yellow you are less than 500 feet from the person who is IT
+					| -
 					li When the website displays red you are IT!
+					| -
+					li A player who is it will need to be within 50ft of another player to tag them
+					| -
+					li Players who turn off their phone or location services will be ejected from the game. They will be IT when they rejoin or start a game.
 
+			.twitterFeed
+				a.twitter-timeline(data-height='505px', data-width='500px', href='https://twitter.com/TeddingtonTAG?ref_src=twsrc%5Etfw') Tweets by TeddingtonTAG
+				script(async='', src='https://platform.twitter.com/widgets.js', charset='utf-8')
+			
 	-if(Page == 1) 
 		head
 			meta(charset="utf-8")
@@ -59,7 +75,13 @@ html
 				#YourITtext Tap it when you see it!
 				.YourITSubtitle
 					| Let the Hunt Begin!
-
-
 	
-		
+	-if(Page == 4)
+		head
+			meta(charset="utf-8")
+			title You Have a Target!
+			link(rel = "stylesheet", href = "../css/Red_page.css")
+		body(id="background")
+			.title A Target is in Range!
+			.subtitle Don't Lose Them!
+			.YourITbutton 
