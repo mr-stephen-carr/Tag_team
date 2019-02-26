@@ -1,0 +1,40 @@
+#background{
+	background-color: rgb(67, 163, 67);
+}
+.title{
+	font-size: 35pt;
+	text-align: center;
+	color: white;
+	margin-right: auto;
+	margin-left: auto;
+	font-weight: bold;
+}
+.subtitle{
+	font-size: 18pt;
+	font-family: sans-serif;
+	text-align: center;
+	color: white;
+}
+
+.safeBox{
+	background: url(../images/Thumbs_up.jpg);
+	width:350px;
+	height: 350px;
+	font-size: 28pt;
+	margin-top: 1%;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: sans-serif;
+	border: 2px solid  rgb(241, 241, 78);
+	background-color: white;
+	
+}
+.distanceUpdate{
+	color: white;
+	width:350px;
+	text-align: center;
+	color: rgb(240, 237, 220);
+	margin-right: auto;
+	margin-left: auto;
+    margin-top: 360px;
+}

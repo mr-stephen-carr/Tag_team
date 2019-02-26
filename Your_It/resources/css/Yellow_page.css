@@ -1,0 +1,40 @@
+#background{
+	background-color: rgb(241, 241, 78);
+}
+.title{
+	font-size: 35pt;
+	text-align: center;
+	color: rgb(204, 88, 34);
+	margin-right: auto;
+	margin-left: auto;
+	font-weight: bold;
+}
+.subtitle{
+	font-size: 18pt;
+	font-family: sans-serif;
+	text-align: center;
+	color:  rgb(224, 51, 51);
+}
+
+.dangerBox{
+	background: url(../images/Panic.jpg);
+	background-position: center center;
+	width:350px;
+	height: 350px;
+	font-size: 28pt;
+	margin-top: 1%;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: sans-serif;
+	border: 2px solid  rgb(224, 51, 51);
+	background-color: white;
+	
+}
+.distanceUpdate{
+	width:350px;
+	text-align: center;
+	color:  rgb(224, 51, 51);
+	margin-right: auto;
+	margin-left: auto;
+    margin-top: 360px;
+}

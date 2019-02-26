@@ -1,0 +1,61 @@
+#background{
+	background-color: rgb(224, 51, 51);
+}
+.title{
+	font-size: 35pt;
+	text-align: center;
+	color: white;
+	margin-right: auto;
+	margin-left: auto;
+	font-weight: bold;
+}
+.subtitle{
+	font-size: 18pt;
+	font-family: sans-serif;
+	text-align: center;
+	color: white;
+}
+
+#YourITtext{
+	font-size: 18pt;
+	font-family: sans-serif;
+	text-align: center;
+	margin-top: 115px;
+	color: rgb(219, 84, 84);
+}
+.YourITbox{
+	width:350px;
+	height: 350px;
+	font-size: 28pt;
+	text-align: left;
+	margin-top: 1%;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: sans-serif;
+	border: 2px solid  black;
+	background-color: white;
+	
+}
+.YourITSubtitle{
+	width:350px;
+	text-align: center;
+	color:white;
+	margin-right: auto;
+	margin-left: auto;
+    margin-top: 50px;
+} 
+
+.YourITbutton{
+	background: url(../images/Button.png);
+	background-position: center center;
+	width:350px;
+	height: 350px;
+	font-size: 28pt;
+	text-align: left;
+	margin-top: 1%;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: sans-serif;
+	border: 2px solid  black;
+	background-color: white;
+}
